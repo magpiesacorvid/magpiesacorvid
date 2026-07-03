@@ -1,0 +1,33 @@
+name: Update Stats
+
+on:
+  push:
+    paths:
+      - stats.json
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate stats
+        run: python generate_readme.py
+
+      - name: Update README
+        run: |
+          awk '/<!-- START_STATS -->/{print;system("cat STATS.md");skip=1;next}/<!-- END_STATS -->/{skip=0} !skip' README.md > tmp.md
+          mv tmp.md README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add README.md
+          git commit -m "update stats" || exit 0
+          git push
