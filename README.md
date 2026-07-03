@@ -21,6 +21,19 @@ My Discord is 7forasecret, my Twitter is magpiencorvid and my steam is "Super Ev
 </p>
 
 Yeah... That's everything.. FOR NOW!!!!!!!!! 
+
+I'm the worst player EVER!! Evidence BELOW...
+
+{
+  "Deadlock": {
+    "wins": 12,
+    "losses": 14
+  },
+  "Overwatch": {
+    "wins": 2,963,
+    "losses": 2,838
+  }
+}
 <!--
 **magpiesacorvid/magpiesacorvid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
