@@ -25,7 +25,6 @@ Yeah... That's everything.. FOR NOW!!!!!!!!!
 I'm the worst player EVER!! Evidence BELOW...
 
 <!-- START_STATS -->
-## 🎮 Game Stats
 
 ### Deadlock
 - Wins: 12
