@@ -23,6 +23,10 @@ My Discord is 7forasecret, my Twitter is magpiencorvid and my steam is "Super Ev
 Yeah... That's everything.. FOR NOW!!!!!!!!! 
 
 I'm the worst player EVER!! Evidence BELOW...
+
+<!-- START_STATS -->
+<!-- END_STATS -->
+
 <!--
 **magpiesacorvid/magpiesacorvid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
