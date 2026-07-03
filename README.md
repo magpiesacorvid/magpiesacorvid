@@ -1,4 +1,4 @@
-## Oh I LOVE TALKING!! HELLO!!! (They/Them, 18)
+## Oh I LOVE TALKING!! HELLO!!! (They/Them, Adult)
 ![Profile Views](https://komarev.com/ghpvc/?username=magpiesacorvid&color=blue) 
 <p align="center">
   <img src="https://i.pinimg.com/736x/e8/c7/bf/e8c7bf72f3714cabf94ce214acaf26c2.jpg" alt="Banner" width="300">
