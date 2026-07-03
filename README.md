@@ -1,5 +1,8 @@
 ## Oh I LOVE TALKING!! HELLO!!! (They/Them, Adult)
 ![Profile Views](https://komarev.com/ghpvc/?username=magpiesacorvid&color=blue) 
+
+# LOOK AT MY REPOSITORIES, I MADE AN ANIMAL GENERATOR!
+
 <p align="center">
   <img src="https://i.pinimg.com/736x/e8/c7/bf/e8c7bf72f3714cabf94ce214acaf26c2.jpg" alt="Banner" width="300">
 </p>
