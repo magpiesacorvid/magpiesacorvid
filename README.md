@@ -28,11 +28,12 @@ Yeah... That's everything.. FOR NOW!!!!!!!!!
 I'm the worst player EVER!! Evidence BELOW...
 
 <!-- START_STATS -->
+## 🎮 Game Stats
 
 ### Deadlock
-- Wins: 12
+- Wins: 14
 - Losses: 14
-- Win Rate: 46.2%
+- Win Rate: 50.0%
 
 ### Overwatch
 - Wins: 2963
