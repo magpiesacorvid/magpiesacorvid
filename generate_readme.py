@@ -3,26 +3,20 @@ from pathlib import Path
 
 data = json.loads(Path("stats.json").read_text())
 
+def wr(g):
+    return g["wins"] / (g["wins"] + g["losses"]) * 100 if (g["wins"] + g["losses"]) else 0
 
-def wr(game):
-    total = game["wins"] + game["losses"]
-    return (game["wins"] / total * 100) if total else 0
+output = f"""## 🎮 Game Stats
 
+### Deadlock
+- Wins: {data['Deadlock']['wins']}
+- Losses: {data['Deadlock']['losses']}
+- Win Rate: {wr(data['Deadlock']):.1f}%
 
-lines = ["## Game Stats", ""]
+### Overwatch
+- Wins: {data['Overwatch']['wins']}
+- Losses: {data['Overwatch']['losses']}
+- Win Rate: {wr(data['Overwatch']):.1f}%
+"""
 
-for game, stats in data.items():
-    lines.extend(
-        [
-            f"### {game}",
-            "",
-            f"- Wins: {stats['wins']}",
-            f"- Losses: {stats['losses']}",
-            f"- Win Rate: {wr(stats):.1f}%",
-            "",
-        ]
-    )
-
-output = "\n".join(lines)
-
-Path("README.md").write_text(output)
+Path("STATS.md").write_text(output)
