@@ -103,7 +103,7 @@ def game_section(name, g):
 
     table = (
         "| " + " | ".join(header_cells) + " |\n"
-        "|" + "|".join(["---"] * len(header_cells)) + "|\n"
+        "|" + "|".join([":---:"] * len(header_cells)) + "|\n"
         "| " + " | ".join(image_cells) + " |\n"
         "| " + " | ".join(stats_cells) + " |"
     )
