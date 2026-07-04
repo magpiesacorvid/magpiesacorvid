@@ -1,62 +1,3 @@
-<style>
-  :root {
-    --bg: #0d1117;
-    --text: #e6edf3;
-    --link: #58a6ff;
-  }
-  body.light-mode {
-    --bg: #ffffff;
-    --text: #1f2328;
-    --link: #0969da;
-  }
-  body {
-    background-color: var(--bg);
-    color: var(--text);
-    transition: background-color 0.2s ease, color 0.2s ease;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  }
-  a { color: var(--link); }
-  #theme-toggle-btn {
-    position: fixed;
-    top: 12px;
-    right: 12px;
-    z-index: 1000;
-    padding: 8px 14px;
-    border-radius: 999px;
-    border: 1px solid #444;
-    background: var(--bg);
-    color: var(--text);
-    cursor: pointer;
-    font-size: 14px;
-  }
-</style>
-
-<button id="theme-toggle-btn" onclick="toggleTheme()">Light Mode</button>
-
-<script>
-  function applyTheme(mode) {
-    if (mode === "light") {
-      document.body.classList.add("light-mode");
-      document.getElementById("theme-toggle-btn").textContent = "Dark Mode";
-    } else {
-      document.body.classList.remove("light-mode");
-      document.getElementById("theme-toggle-btn").textContent = "Light Mode";
-    }
-  }
-
-  function toggleTheme() {
-    const isLight = document.body.classList.contains("light-mode");
-    const next = isLight ? "dark" : "light";
-    localStorage.setItem("theme", next);
-    applyTheme(next);
-  }
-
-  (function () {
-    const saved = localStorage.getItem("theme") || "dark";
-    applyTheme(saved);
-  })();
-</script>
-
 <h2 align="center">Oh I LOVE TALKING!! HELLO!!! (They/Them, Adult)</h2>
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=magpiesacorvid&color=blue" alt="Profile Views"></p>
@@ -118,5 +59,3 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 | 377W - 348L (52.0%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
 
 </div>
-
-<!-- END_STATS -->
