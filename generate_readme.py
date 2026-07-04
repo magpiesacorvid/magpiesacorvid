@@ -25,4 +25,4 @@ for game, stats in data.items():
 
 output = "\n".join(lines)
 
-Path("STATS.md").write_text(output)
+Path("README.md").write_text(output)
