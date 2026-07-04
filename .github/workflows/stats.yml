@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - stats.json
+  workflow_dispatch:
 permissions:
   contents: write   #  THIS FIXES EXIT 128 pleasepleaspleazs
 jobs:
