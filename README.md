@@ -33,26 +33,15 @@ I'm the worst player EVER!! Evidence BELOW...
 - Wins: 14
 - Losses: 14
 - Win Rate: 50.0%
+#### Heroes
+| Celeste | Silver | Paige | Ivy |
+|---|---|---|---|
+| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/3/37/Ivy_Critical_.png" width="60"> |
+| 11W - 9L (55.0%) | 3W - 2L (60.0%) | 0W - 2L (0.0%) | 0W - 1L (0.0%) |
 ### Overwatch
 - Wins: 2963
 - Losses: 2838
 - Win Rate: 51.1%
-### Celeste
-- Wins: 11
-- Losses: 9
-- Win Rate: 55.0%
-### Silver
-- Wins: 3
-- Losses: 2
-- Win Rate: 60.0%
-### Paige
-- Wins: 0
-- Losses: 2
-- Win Rate: 0.0%
-### Ivy
-- Wins: 0
-- Losses: 1
-- Win Rate: 0.0%
 <!-- END_STATS -->
 
 <!--
