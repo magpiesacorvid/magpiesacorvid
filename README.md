@@ -59,7 +59,7 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 | 377W - 348L (52.0%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
 
 <!-- GUESTBOOK:START -->
-_No messages yet - be the first to sign!_
+<img src="https://avatars.githubusercontent.com/u/299535872?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@oskar-ish](https://github.com/oskar-ish)** — +rep  my favourite kosovan <sub>(Jul 4, 2026)</sub>
 <!-- GUESTBOOK:END -->
 
 [Leave a message](../../issues/new?title=Guestbook+Signature&labels=guestbook&body=Your+message+here)
