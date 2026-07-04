@@ -58,4 +58,10 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 | <img src="https://cdn3.emoji.gg/emojis/5341-dvapeace.png" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8866-luciocool.png" width="60"> | <img src="https://i.pinimg.com/736x/31/33/7a/31337adb5d3962e15a2c2ad9fe3856dc.jpg" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8861-symmetragiggle.png" width="60"> |
 | 377W - 348L (52.0%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
 
+<!-- GUESTBOOK:START -->
+_No messages yet - be the first to sign!_
+<!-- GUESTBOOK:END -->
+
+[Leave a message](../../issues/new?title=Guestbook+Signature&labels=guestbook&body=Your+message+here)
+
 </div>
