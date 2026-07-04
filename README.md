@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=magpiesacorvid&color=blue" alt="Profile Views"></p>
 
-<h1 align="center">LOOK AT MY REPOSITORIES, I MADE AN ANIMAL GENERATOR!</h1>
+<h1 align="center">LOOK AT MY REPOSITORIES, I MADE AN ANIMAL GENERATOR! + SCROLL DOWN AND LEAVE A COMMENT!!!</h1>
 
 <p align="center">
   <img src="https://i.pinimg.com/736x/e8/c7/bf/e8c7bf72f3714cabf94ce214acaf26c2.jpg" alt="Banner" width="300">
@@ -57,6 +57,10 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 |:---:|:---:|:---:|:---:|
 | <img src="https://cdn3.emoji.gg/emojis/5341-dvapeace.png" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8866-luciocool.png" width="60"> | <img src="https://i.pinimg.com/736x/31/33/7a/31337adb5d3962e15a2c2ad9fe3856dc.jpg" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8861-symmetragiggle.png" width="60"> |
 | 377W - 348L (52.0%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
+
+
+--- 
+## LEAVE ME A MESSAGE!
 
 <!-- GUESTBOOK:START -->
 <img src="https://avatars.githubusercontent.com/u/299535872?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@oskar-ish](https://github.com/oskar-ish)** — +rep  my favourite kosovan <sub>(Jul 4, 2026)</sub>
