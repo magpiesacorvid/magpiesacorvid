@@ -7,13 +7,13 @@ data = json.loads(Path("stats.json").read_text())
 # Icons shown either side of each game's heading
 GAME_ICONS = {
     "Deadlock": "https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2",
-    "Overwatch": "https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2",
+    "Overwatch": "https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp",
 }
 
 # Colored/styled heading text for each game
 GAME_HEADINGS = {
     "Deadlock": '<span style="color:#eedfbf">Deadlock</span>',
-    "Overwatch": 'Ove<span style="color:#2596be">rwa</span>tch',
+    "Overwatch": 'Ove<span style="color:#ef6414">rwa</span>tch',
 }
 
 # Heroes shown in a sub-table under each game, sorted by total games played
@@ -74,58 +74,64 @@ def hero_image(hero, g):
     return HERO_IMAGES[hero][key]
 
 
-def game_heading(name):
+def game_section(name, g):
     icon = GAME_ICONS[name]
     heading = GAME_HEADINGS[name]
-    return f'### <img src="{icon}" height="22"> {heading} <img src="{icon}" height="22">'
 
-
-def game_section(name, g):
-    return (
-        f"{game_heading(name)}\n"
-        f"- Wins: {g['wins']}\n"
-        f"- Losses: {g['losses']}\n"
-        f"- Win Rate: {wr(g):.1f}%"
+    heading_html = (
+        f'<h3 align="center"><img src="{icon}" height="22" valign="middle"> '
+        f'{heading} '
+        f'<img src="{icon}" height="22" valign="middle"></h3>'
+    )
+    stats_html = (
+        f'<p align="center">Wins: {g["wins"]}<br>'
+        f'Losses: {g["losses"]}<br>'
+        f'Win Rate: {wr(g):.1f}%</p>'
     )
 
-
-def hero_table(name):
     heroes_sorted = sorted(GAME_HEROES[name], key=lambda h: total_games(data[h]), reverse=True)
 
     header_cells = []
     image_cells = []
     stats_cells = []
     for hero in heroes_sorted:
-        g = data[hero]
-        img = hero_image(hero, g)
+        hg = data[hero]
+        img = hero_image(hero, hg)
         header_cells.append(hero)
         image_cells.append(f'<img src="{img}" width="60">')
-        stats_cells.append(f"{g['wins']}W - {g['losses']}L ({wr(g):.1f}%)")
+        stats_cells.append(f"{hg['wins']}W - {hg['losses']}L ({wr(hg):.1f}%)")
 
     table = (
-        "#### Heroes\n"
         "| " + " | ".join(header_cells) + " |\n"
         "|" + "|".join(["---"] * len(header_cells)) + "|\n"
         "| " + " | ".join(image_cells) + " |\n"
         "| " + " | ".join(stats_cells) + " |"
     )
-    return table
+
+    heroes_html = (
+        '<h4 align="center">Heroes</h4>\n\n'
+        '<div align="center">\n\n'
+        f"{table}\n\n"
+        '</div>'
+    )
+
+    return f"{heading_html}\n\n{stats_html}\n\n{heroes_html}"
 
 
-sections = []
+sections = [game_section("Deadlock", data["Deadlock"]), game_section("Overwatch", data["Overwatch"])]
 
-for game in ["Deadlock", "Overwatch"]:
-    sections.append(game_section(game, data[game]))
-    sections.append(hero_table(game))
-
-stats_block = "## Game Stats\n" + "\n".join(sections) + "\n"
+stats_block = (
+    '<h2 align="center">Game Stats</h2>\n\n'
+    + "\n\n".join(sections)
+    + "\n"
+)
 
 readme_path = Path("README.md")
 readme = readme_path.read_text()
 
 new_readme = re.sub(
     r"<!-- START_STATS -->.*?<!-- END_STATS -->",
-    f"<!-- START_STATS -->\n{stats_block}<!-- END_STATS -->",
+    f"<!-- START_STATS -->\n\n{stats_block}\n<!-- END_STATS -->",
     readme,
     flags=re.DOTALL,
 )
