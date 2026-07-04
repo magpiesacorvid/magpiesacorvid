@@ -1,0 +1,75 @@
+name: Update Guestbook
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  workflow_dispatch:
+ 
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  update-readme:
+    if: contains(github.event.issue.labels.*.name, 'guestbook') || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+ 
+      - name: Fetch guestbook issues and update README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+ 
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'guestbook',
+              state: 'open',
+              per_page: 100,
+              sort: 'created',
+              direction: 'desc'
+            });
+ 
+            const MAX_ENTRIES = 15;
+            const entries = issues.slice(0, MAX_ENTRIES).map(issue => {
+              const author = issue.user.login;
+              const avatar = issue.user.avatar_url;
+              const date = new Date(issue.created_at).toLocaleDateString('en-US', {
+                year: 'numeric', month: 'short', day: 'numeric'
+              });
+              const message = issue.body ? issue.body.trim().replace(/\r?\n/g, ' ') : '';
+              const safeMessage = message.length > 200 ? message.slice(0, 200) + '…' : message;
+ 
+              return `<img src="${avatar}" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@${author}](https://github.com/${author})** — ${safeMessage} <sub>(${date})</sub>`;
+            });
+ 
+            const block = entries.length
+              ? entries.join('\n\n')
+              : '_No messages yet — be the first to sign!_';
+ 
+            const readmePath = 'README.md';
+            let readme = fs.readFileSync(readmePath, 'utf8');
+ 
+            const startMarker = '<!-- GUESTBOOK:START -->';
+            const endMarker = '<!-- GUESTBOOK:END -->';
+            const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`);
+ 
+            readme = readme.replace(regex, `${startMarker}\n${block}\n${endMarker}`);
+            fs.writeFileSync(readmePath, readme);
+ 
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: update guestbook 📝"
+          git push
+ 
