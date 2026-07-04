@@ -60,8 +60,4 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 </div>
 
-<!-- END_STATS -->e15a2c2ad9fe3856dc.jpg" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8861-symmetragiggle.png" width="60"> |
-| 377W - 348L (52.0%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
 <!-- END_STATS -->
-
-</div>
