@@ -63,6 +63,8 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 ## LEAVE ME A MESSAGE!
 
 <!-- GUESTBOOK:START -->
+<img src="https://avatars.githubusercontent.com/u/258506470?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@kensouf](https://github.com/kensouf)** — pony town is a worthless cess pit also i like like you <sub>(Jul 6, 2026)</sub>
+
 <img src="https://avatars.githubusercontent.com/u/299535872?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@oskar-ish](https://github.com/oskar-ish)** — +rep  my favourite kosovan <sub>(Jul 4, 2026)</sub>
 <!-- GUESTBOOK:END -->
 
