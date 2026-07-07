@@ -26,6 +26,8 @@ My Discord is 7forasecret, my Twitter is magpiencorvid and my steam is "Super Ev
 <p align="center">Yeah... That's everything.. FOR NOW!!!!!!!!!<br>
 I'm the worst player EVER!! Evidence BELOW...</p>
 
+<div align="center">
+  
 <!-- STATS_START -->
 # Stats
 
