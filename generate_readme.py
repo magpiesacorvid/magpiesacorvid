@@ -89,7 +89,7 @@ def game_section(name, g):
         f'Win Rate: {wr(g):.1f}%</p>'
     )
 
-    heroes_sorted = sorted(GAME_HEROES[name], key=lambda h: total_games(data[h]), reverse=True)
+    heroes_sorted = sorted(_HEROES[name], key=lambda h: total_s(data[h]), reverse=True)
 
     header_cells = []
     image_cells = []
@@ -118,10 +118,10 @@ def game_section(name, g):
     return f"{heading_html}\n\n{stats_html}\n\n{heroes_html}"
 
 
-sections = [game_section("Deadlock", data["Deadlock"]), game_section("Overwatch", data["Overwatch"])]
+sections = [_section("Deadlock", data["Deadlock"]), _section("Overwatch", data["Overwatch"])]
 
 stats_block = (
-    '<h2 align="center">Game Stats</h2>\n\n'
+    '<h2 align="center"> Stats</h2>\n\n'
     + "\n\n".join(sections)
     + "\n"
 )
