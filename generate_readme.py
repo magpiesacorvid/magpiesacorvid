@@ -165,5 +165,3 @@ else:
 
 
 readme_path.write_text(readme)
-```
-
