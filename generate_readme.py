@@ -18,7 +18,7 @@ GAME_HEADINGS = {
 
 # Heroes shown in a sub-table under each game, sorted by total games played
 GAME_HEROES = {
-    "Deadlock": ["Celeste", "Silver", "Paige", "Ivy"],
+    "Deadlock": ["Celeste", "Silver", "Paige", "Mina"],
     "Overwatch": ["D.Va", "Lucio", "Freja", "Symmetra"],
 }
 
@@ -37,9 +37,9 @@ HERO_IMAGES = {
         "gloat": "https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png",
         "critical": "https://deadlock.wiki/images/8/8b/Silver_Critical_Health.png",
     },
-    "Ivy": {
-        "gloat": "https://deadlock.wiki/images/4/45/Ivy_Gloat_.png",
-        "critical": "https://deadlock.wiki/images/3/37/Ivy_Critical_.png",
+    "": {
+        "gloat": "https://deadlock.wiki/images/5/5e/_Gloat.png",
+        "critical": "https://deadlock.wiki/images/e/e3/Mina_Critical.png",
     },
     "D.Va": {
         "gloat": "https://cdn3.emoji.gg/emojis/5341-dvapeace.png",
