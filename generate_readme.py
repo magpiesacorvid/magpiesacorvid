@@ -89,7 +89,11 @@ def game_section(name, g):
         f'Win Rate: {wr(g):.1f}%</p>'
     )
 
-    heroes_sorted = sorted(_HEROES[name], key=lambda h: total_s(data[h]), reverse=True)
+    heroes_sorted = sorted(
+    GAME_HEROES[name],
+    key=lambda h: total_games(data.get(h, {"wins": 0, "losses": 0})),
+    reverse=True,
+)
 
     header_cells = []
     image_cells = []
