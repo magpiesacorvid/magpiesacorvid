@@ -78,14 +78,14 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 <h3 align="center"><img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"> Deadlock <img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"></h3>
 
-<p align="center">Wins: 20<br>Losses: 20<br>Win Rate: 50.0%</p>
+<p align="center">Wins: 22<br>Losses: 22<br>Win Rate: 50.0%</p>
 
 <h4 align="center">Heroes</h4>
 
 | Celeste | Silver | Paige | Mina |
 |:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/9/9f/Paige_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> |
-| 13W - 13L (50.0%) | 4W - 3L (57.1%) | 2W - 2L (50.0%) | 3W - 0L (100.0%) |
+| <img src="https://deadlock.wiki/images/4/41/Celeste_Critical_Health.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/9/9f/Paige_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> |
+| 13W - 14L (48.1%) | 4W - 4L (50.0%) | 2W - 2L (50.0%) | 3W - 1L (75.0%) |
 
 <h3 align="center"><img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"> Overwatch <img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"></h3>
 
