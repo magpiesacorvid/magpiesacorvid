@@ -37,7 +37,7 @@ HERO_IMAGES = {
         "gloat": "https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png",
         "critical": "https://deadlock.wiki/images/8/8b/Silver_Critical_Health.png",
     },
-    "": {
+    "Mina": {
         "gloat": "https://deadlock.wiki/images/5/5e/_Gloat.png",
         "critical": "https://deadlock.wiki/images/e/e3/Mina_Critical.png",
     },
