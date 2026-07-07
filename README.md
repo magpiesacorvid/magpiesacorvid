@@ -26,53 +26,6 @@ My Discord is 7forasecret, my Twitter is magpiencorvid and my steam is "Super Ev
 <p align="center">Yeah... That's everything.. FOR NOW!!!!!!!!!<br>
 I'm the worst player EVER!! Evidence BELOW...</p>
 
-<!-- START_STATS -->
-
-<h2 align="center">Game Stats</h2>
-
-<h3 align="center"><img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22" valign="middle"> <span style="color:#eedfbf">Deadlock</span> <img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22" valign="middle"></h3>
-
-<p align="center">Wins: 14<br>Losses: 14<br>Win Rate: 50.0%</p>
-
-<h4 align="center">Heroes</h4>
-
-<div align="center">
-
-| Celeste | Silver | Paige | Mina |
-|:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> |
-| 11W - 9L (55.0%) | 3W - 2L (60.0%) | 0W - 2L (0.0%) | 0W - 1L (0.0%) |
-
-</div>
-
-<h3 align="center"><img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22" valign="middle"> Ove<span style="color:#ef6414">rwa</span>tch <img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22" valign="middle"></h3>
-
-<p align="center">Wins: 2963<br>Losses: 2838<br>Win Rate: 51.1%</p>
-
-<h4 align="center">Heroes</h4>
-
-<div align="center">
-
-| D.Va | Lucio | Freja | Symmetra |
-|:---:|:---:|:---:|:---:|
-| <img src="https://cdn3.emoji.gg/emojis/5341-dvapeace.png" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8866-luciocool.png" width="60"> | <img src="https://i.pinimg.com/736x/31/33/7a/31337adb5d3962e15a2c2ad9fe3856dc.jpg" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8861-symmetragiggle.png" width="60"> |
-| 377W - 348L (52.0%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
-
-
---- 
-## LEAVE ME A MESSAGE!
-
-<!-- GUESTBOOK:START -->
-<img src="https://avatars.githubusercontent.com/u/258506470?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@kensouf](https://github.com/kensouf)** — pony town is a worthless cess pit also i like like you <sub>(Jul 6, 2026)</sub>
-
-<img src="https://avatars.githubusercontent.com/u/299535872?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@oskar-ish](https://github.com/oskar-ish)** — +rep  my favourite kosovan <sub>(Jul 4, 2026)</sub>
-<!-- GUESTBOOK:END -->
-
-[Leave a message](../../issues/new?title=Guestbook+Signature&labels=guestbook&body=Your+message+here)
-
-</div>
-
-
 <!-- STATS_START -->
 # Stats
 
@@ -98,3 +51,18 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 | <img src="https://cdn3.emoji.gg/emojis/5341-dvapeace.png" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8866-luciocool.png" width="60"> | <img src="https://i.pinimg.com/736x/31/33/7a/31337adb5d3962e15a2c2ad9fe3856dc.jpg" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8861-symmetragiggle.png" width="60"> |
 | 377W - 348L (52.0%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
 <!-- STATS_END -->
+
+--- 
+## LEAVE ME A MESSAGE!
+
+<!-- GUESTBOOK:START -->
+<img src="https://avatars.githubusercontent.com/u/258506470?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@kensouf](https://github.com/kensouf)** — pony town is a worthless cess pit also i like like you <sub>(Jul 6, 2026)</sub>
+
+<img src="https://avatars.githubusercontent.com/u/299535872?v=4" width="20" height="20" style="border-radius:50%;vertical-align:middle;"> **[@oskar-ish](https://github.com/oskar-ish)** — +rep  my favourite kosovan <sub>(Jul 4, 2026)</sub>
+<!-- GUESTBOOK:END -->
+
+[Leave a message](../../issues/new?title=Guestbook+Signature&labels=guestbook&body=Your+message+here)
+
+</div>
+
+
