@@ -1,29 +1,30 @@
+```python
 import json
 import re
 from pathlib import Path
 
+# Load stats
 data = json.loads(Path("stats.json").read_text())
 
-# Icons shown either side of each game's heading
+
 GAME_ICONS = {
     "Deadlock": "https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2",
     "Overwatch": "https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp",
 }
 
-# Colored/styled heading text for each game
+
 GAME_HEADINGS = {
-    "Deadlock": '<span style="color:#eedfbf">Deadlock</span>',
-    "Overwatch": 'Ove<span style="color:#ef6414">rwa</span>tch',
+    "Deadlock": "Deadlock",
+    "Overwatch": "Overwatch",
 }
 
-# Heroes shown in a sub-table under each game, sorted by total games played
+
 GAME_HEROES = {
     "Deadlock": ["Celeste", "Silver", "Paige", "Mina"],
     "Overwatch": ["D.Va", "Lucio", "Freja", "Symmetra"],
 }
 
-# Portrait shown depending on whether the hero's win rate is
-# above/at 50% ("gloat") or below 50% ("critical")
+
 HERO_IMAGES = {
     "Celeste": {
         "gloat": "https://deadlock.wiki/images/7/70/Celeste_Gloat.png",
@@ -38,7 +39,7 @@ HERO_IMAGES = {
         "critical": "https://deadlock.wiki/images/8/8b/Silver_Critical_Health.png",
     },
     "Mina": {
-        "gloat": "https://deadlock.wiki/images/5/5e/_Gloat.png",
+        "gloat": "https://deadlock.wiki/images/5/5e/Mina_Gloat.png",
         "critical": "https://deadlock.wiki/images/e/e3/Mina_Critical.png",
     },
     "D.Va": {
@@ -64,80 +65,105 @@ def total_games(g):
     return g["wins"] + g["losses"]
 
 
-def wr(g):
-    t = total_games(g)
-    return (g["wins"] / t * 100) if t else 0
+def win_rate(g):
+    games = total_games(g)
+    return (g["wins"] / games * 100) if games else 0
 
 
-def hero_image(hero, g):
-    key = "gloat" if wr(g) >= 50 else "critical"
-    return HERO_IMAGES[hero][key]
+def hero_image(hero, stats):
+    mood = "gloat" if win_rate(stats) >= 50 else "critical"
+    return HERO_IMAGES[hero][mood]
 
 
-def game_section(name, g):
+def game_section(name, stats):
     icon = GAME_ICONS[name]
     heading = GAME_HEADINGS[name]
 
     heading_html = (
-        f'<h3 align="center"><img src="{icon}" height="22" valign="middle"> '
+        f'<h3 align="center">'
+        f'<img src="{icon}" height="22"> '
         f'{heading} '
-        f'<img src="{icon}" height="22" valign="middle"></h3>'
+        f'<img src="{icon}" height="22">'
+        f'</h3>'
     )
+
     stats_html = (
-        f'<p align="center">Wins: {g["wins"]}<br>'
-        f'Losses: {g["losses"]}<br>'
-        f'Win Rate: {wr(g):.1f}%</p>'
+        f'<p align="center">'
+        f'Wins: {stats["wins"]}<br>'
+        f'Losses: {stats["losses"]}<br>'
+        f'Win Rate: {win_rate(stats):.1f}%'
+        f'</p>'
     )
 
     heroes_sorted = sorted(
-    GAME_HEROES[name],
-    key=lambda h: total_games(data.get(h, {"wins": 0, "losses": 0})),
-    reverse=True,
-)
+        GAME_HEROES[name],
+        key=lambda h: total_games(data.get(h, {"wins": 0, "losses": 0})),
+        reverse=True,
+    )
 
-    header_cells = []
-    image_cells = []
-    stats_cells = []
+    headers = []
+    images = []
+    results = []
+
     for hero in heroes_sorted:
-        hg = data[hero]
-        img = hero_image(hero, hg)
-        header_cells.append(hero)
-        image_cells.append(f'<img src="{img}" width="60">')
-        stats_cells.append(f"{hg['wins']}W - {hg['losses']}L ({wr(hg):.1f}%)")
+        hero_stats = data.get(hero, {"wins": 0, "losses": 0})
+
+        headers.append(hero)
+
+        images.append(
+            f'<img src="{hero_image(hero, hero_stats)}" width="60">'
+        )
+
+        results.append(
+            f'{hero_stats["wins"]}W - '
+            f'{hero_stats["losses"]}L '
+            f'({win_rate(hero_stats):.1f}%)'
+        )
 
     table = (
-        "| " + " | ".join(header_cells) + " |\n"
-        "|" + "|".join([":---:"] * len(header_cells)) + "|\n"
-        "| " + " | ".join(image_cells) + " |\n"
-        "| " + " | ".join(stats_cells) + " |"
+        "| " + " | ".join(headers) + " |\n"
+        "|" + "|".join([":---:"] * len(headers)) + "|\n"
+        "| " + " | ".join(images) + " |\n"
+        "| " + " | ".join(results) + " |"
     )
 
-    heroes_html = (
-        '<h4 align="center">Heroes</h4>\n\n'
-        '<div align="center">\n\n'
-        f"{table}\n\n"
-        '</div>'
+    return (
+        f"{heading_html}\n\n"
+        f"{stats_html}\n\n"
+        f"<h4 align=\"center\">Heroes</h4>\n\n"
+        f"{table}"
     )
 
-    return f"{heading_html}\n\n{stats_html}\n\n{heroes_html}"
 
+sections = [
+    game_section("Deadlock", data["Deadlock"]),
+    game_section("Overwatch", data["Overwatch"]),
+]
 
-sections = [_section("Deadlock", data["Deadlock"]), _section("Overwatch", data["Overwatch"])]
 
 stats_block = (
-    '<h2 align="center"> Stats</h2>\n\n'
+    "<!-- STATS_START -->\n"
+    "# Stats\n\n"
     + "\n\n".join(sections)
-    + "\n"
+    + "\n<!-- STATS_END -->"
 )
+
 
 readme_path = Path("README.md")
 readme = readme_path.read_text()
 
-new_readme = re.sub(
-    r"<!-- START_STATS -->.*?<!-- END_STATS -->",
-    f"<!-- START_STATS -->\n\n{stats_block}\n<!-- END_STATS -->",
-    readme,
-    flags=re.DOTALL,
-)
 
-readme_path.write_text(new_readme)
+if "<!-- STATS_START -->" in readme:
+    readme = re.sub(
+        r"<!-- STATS_START -->.*?<!-- STATS_END -->",
+        stats_block,
+        readme,
+        flags=re.DOTALL,
+    )
+else:
+    readme += "\n\n" + stats_block
+
+
+readme_path.write_text(readme)
+```
+
