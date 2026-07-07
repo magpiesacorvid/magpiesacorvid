@@ -38,7 +38,7 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 <div align="center">
 
-| Celeste | Silver | Paige | Ivy |
+| Celeste | Silver | Paige | Mina |
 |:---:|:---:|:---:|:---:|
 | <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/3/37/Ivy_Critical_.png" width="60"> |
 | 11W - 9L (55.0%) | 3W - 2L (60.0%) | 0W - 2L (0.0%) | 0W - 1L (0.0%) |
