@@ -33,7 +33,7 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 <h3 align="center"><img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"> Deadlock <img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"></h3>
 
-<p align="center">Wins: 23<br>Losses: 23<br>Win Rate: 50.0%</p>
+<p align="center">Wins: 23<br>Losses: 25<br>Win Rate: 47.9%</p>
 
 <h4 align="center">Heroes</h4>
 
