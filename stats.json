@@ -1,9 +1,9 @@
 {
-  "Deadlock": { "wins": 22, "losses": 22 },
-  "Celeste": {"wins": 13, "losses": 14},
+  "Deadlock": { "wins": 23, "losses": 23 },
+  "Celeste": {"wins": 13, "losses": 15},
   "Silver": {"wins": 4, "losses": 4},
   "Paige": {"wins": 2, "losses": 2},
-  "Mina": {"wins": 3, "losses": 1},
+  "Mina": {"wins": 4, "losses": 1},
   "Overwatch": { "wins": 2963, "losses": 2838 },
   "D.Va": {"wins": 377, "losses": 348},
   "Lucio": {"wins": 247, "losses": 183},
