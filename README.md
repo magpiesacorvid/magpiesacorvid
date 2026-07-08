@@ -13,7 +13,7 @@ I wouldn't call myself a gamer, those are like, the ONLY games I've ever played.
 Catch me playing Celeste, Paige, Silver, D.va, Vendetta and Lucio, in that order of most to least likely..<br>
 I'm a musician, and a linguist, and I LOOOOOVE animals so freaking much, I have over 4,000 animal images saved on my computer, my favourite animal is either a Magpie (durr) or an African Palm Civet!!!!!!!<br>
 I have about 30 string instruments, ASK ME ABOUT THEM!!!!!!!!! I say about.. it's probably more.. i like WRITING and READING not maths.. blargh!!<br>
-My Discord is 7forasecret, my Twitter is magpiencorvid and my steam is "Super Evil Bloodthirsty Unicorn", add me ANYWHERE i love TALKING..</p>
+My Discord is 7forasecret, my Twitter is magpiencorvid and my steam is "Super Evil Bloodthirsty Unicorn", add me ANYWHERE i love TALKING.. But a fair warning! I have DIAGNOSED BPD (Borderline Personality Disorder) and whilst I try my best to not let it impede my life, there may be times where you have to be patient. Sorry!</p>
 
 <p align="center">
   <img src="https://i.pinimg.com/1200x/43/95/ee/4395ee0d213df6c0b0a74d14de51dafe.jpg" alt="Banner" width="300">
