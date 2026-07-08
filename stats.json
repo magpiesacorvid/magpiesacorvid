@@ -1,5 +1,5 @@
 {
-  "Deadlock": { "wins": 23, "losses": 23 },
+  "Deadlock": { "wins": 23, "losses": 25 },
   "Celeste": {"wins": 13, "losses": 15},
   "Silver": {"wins": 4, "losses": 4},
   "Paige": {"wins": 2, "losses": 2},
