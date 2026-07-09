@@ -1,7 +1,7 @@
 {
-  "Deadlock": { "wins": 31, "losses": 31 },
-  "Celeste": {"wins": 14, "losses": 17},
-  "Silver": {"wins": 6, "losses": 5},
+  "Deadlock": { "wins": 38, "losses": 35 },
+  "Celeste": {"wins": 20, "losses": 20},
+  "Silver": {"wins": 6, "losses": 6},
   "Paige": {"wins": 3, "losses": 4},
   "Mina": {"wins": 4, "losses": 1},
   "Overwatch": { "wins": 2965, "losses": 2838 },
