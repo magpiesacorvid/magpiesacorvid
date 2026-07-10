@@ -1,4 +1,3 @@
-
 import json
 import re
 from pathlib import Path
@@ -20,7 +19,7 @@ GAME_HEADINGS = {
 
 
 GAME_HEROES = {
-    "Deadlock": ["Celeste", "Silver", "Paige", "Mina"],
+    "Deadlock": ["Celeste", "Silver", "Paige", "Mina", "Vyper", "Ivy", "Holliday"],
     "Overwatch": ["D.Va", "Lucio", "Freja", "Symmetra"],
 }
 
@@ -41,6 +40,18 @@ HERO_IMAGES = {
     "Mina": {
         "gloat": "https://deadlock.wiki/images/5/5e/Mina_Gloat.png",
         "critical": "https://deadlock.wiki/images/e/e3/Mina_Critical.png",
+    },
+    "Vyper": {
+        "gloat": "https://iili.io/C0UOdB4.png",
+        "critical": "https://iili.io/C0UOHQf.png",
+    },
+    "Ivy": {
+        "gloat": "https://deadlock.wiki/images/4/45/Ivy_Gloat_.png",
+        "critical": "https://deadlock.wiki/images/3/37/Ivy_Critical_.png",
+    },
+    "Holliday": {
+        "gloat": "https://deadlock.wiki/images/4/46/Holliday_Gloat.png",
+        "critical": "https://deadlock.wiki/images/7/7c/Holliday_Critical.png",
     },
     "D.Va": {
         "gloat": "https://cdn3.emoji.gg/emojis/5341-dvapeace.png",
@@ -164,4 +175,5 @@ else:
     readme += "\n\n" + stats_block
 
 
+readme_path.write_text(readme)
 readme_path.write_text(readme)
