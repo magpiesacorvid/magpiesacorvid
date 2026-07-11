@@ -33,14 +33,14 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 <h3 align="center"><img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"> Deadlock <img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"></h3>
 
-<p align="center">Wins: 39<br>Losses: 36<br>Win Rate: 52.0%</p>
+<p align="center">Wins: 47<br>Losses: 41<br>Win Rate: 53.4%</p>
 
 <h4 align="center">Heroes</h4>
 
-| Celeste | Silver | Paige | Mina | Vyper | Ivy | Holliday |
+| Celeste | Silver | Mina | Vyper | Paige | Holliday | Ivy |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> | <img src="https://deadlock.wiki/images/4/45/Ivy_Gloat_.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> |
-| 20W - 20L (50.0%) | 6W - 6L (50.0%) | 3W - 4L (42.9%) | 4W - 1L (80.0%) | 3W - 1L (75.0%) | 3W - 1L (75.0%) | 0W - 3L (0.0%) |
+| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/4/45/Ivy_Gloat_.png" width="60"> |
+| 20W - 20L (50.0%) | 6W - 6L (50.0%) | 8W - 2L (80.0%) | 6W - 2L (75.0%) | 3W - 4L (42.9%) | 1W - 6L (14.3%) | 3W - 1L (75.0%) |
 
 <h3 align="center"><img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"> Overwatch <img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"></h3>
 
