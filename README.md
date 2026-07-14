@@ -37,10 +37,10 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 <h4 align="center">Heroes</h4>
 
-| Celeste | Silver | Mina | Vyper | Holliday | Paige | Ivy |
+| Celeste | Silver | Mina | Holliday | Vyper | Paige | Ivy |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/4/45/Ivy_Gloat_.png" width="60"> |
-| 20W - 20L (50.0%) | 6W - 6L (50.0%) | 8W - 3L (72.7%) | 7W - 2L (77.8%) | 1W - 7L (12.5%) | 3W - 4L (42.9%) | 3W - 1L (75.0%) |
+| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/4/44/Silver_Gloat_Portrait.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/4/45/Ivy_Gloat_.png" width="60"> |
+| 20W - 20L (50.0%) | 6W - 6L (50.0%) | 8W - 3L (72.7%) | 3W - 8L (27.3%) | 7W - 2L (77.8%) | 3W - 4L (42.9%) | 3W - 1L (75.0%) |
 
 <h3 align="center"><img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"> Overwatch <img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"></h3>
 
