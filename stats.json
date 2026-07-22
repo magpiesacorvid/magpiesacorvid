@@ -1,8 +1,8 @@
 {
-  "Deadlock": { "wins": 57, "losses": 56 },
+  "Deadlock": { "wins": 58, "losses": 57 },
   "Celeste": {"wins": 23, "losses": 21},
-  "Silver": {"wins": 6, "losses": 9},
-  "Paige": {"wins": 3, "losses": 4},
+  "Silver": {"wins": 6, "losses": 10},
+  "Paige": {"wins": 4, "losses": 4},
   "Mina": {"wins": 8, "losses": 4},
   "Vyper": {"wins": 9, "losses": 4},
   "Ivy": {"wins": 3, "losses": 1},
