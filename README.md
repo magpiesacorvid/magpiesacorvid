@@ -37,21 +37,30 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 <h4 align="center">Heroes</h4>
 
-| Celeste | Silver | Holliday | Paige | Mina | Vyper | Ivy |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/8/8b/Silver_Critical_Health.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/9/9f/Paige_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> | <img src="https://deadlock.wiki/images/3/37/Ivy_Critical_.png" width="60"> |
-| 34W - 27L (55.7%) | 11W - 16L (40.7%) | 7W - 17L (29.2%) | 9W - 9L (50.0%) | 10W - 7L (58.8%) | 12W - 4L (75.0%) | 4W - 5L (44.4%) |
+| Celeste | Silver | Holliday | Paige | Mina | Vyper |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/8/8b/Silver_Critical_Health.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/9/9f/Paige_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> |
+| 34W - 27L (55.7%) | 11W - 16L (40.7%) | 7W - 17L (29.2%) | 9W - 9L (50.0%) | 10W - 7L (58.8%) | 12W - 4L (75.0%) |
 
-<h3 align="center"><img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"> Overwatch <img src="https://cdn.betterttv.net/emote/698afc803df753bf3f83fcbd/3x.webp" height="22"></h3>
+| Graves | Ivy | Venator | McGinnis | Vindicta | Mirage |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://deadlock.wiki/images/f/ff/Graves_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/3/37/Ivy_Critical_.png" width="60"> | <img src="https://deadlock.wiki/images/5/55/Venator_Critical_Health.png" width="60"> | <img src="https://deadlock.wiki/images/7/7d/McGinnis_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/d/d0/Vindicta_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/a/a3/Mirage_Critical.png" width="60"> |
+| 9W - 3L (75.0%) | 4W - 5L (44.4%) | 3W - 4L (42.9%) | 2W - 4L (33.3%) | 3W - 3L (50.0%) | 1W - 4L (20.0%) |
 
-<p align="center">Wins: 2965<br>Losses: 2838<br>Win Rate: 51.1%</p>
+| Wraith | Abrams | Dynamo | Haze | Infernus | Calico |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://deadlock.wiki/images/6/6c/Wraith_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/c/c1/Abrams_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/9/9e/Dynamo_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/c/c4/Haze_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/9/91/Infernus_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/c/c7/Calico_Critical_.png" width="60"> |
+| 2W - 3L (40.0%) | 2W - 2L (50.0%) | 2W - 2L (50.0%) | 1W - 3L (25.0%) | 2W - 2L (50.0%) | 1W - 2L (33.3%) |
 
-<h4 align="center">Heroes</h4>
+| Lady Geist | Viscous | Grey Talon | Lash | Paradox | Pocket |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://deadlock.wiki/images/1/1e/Lady_Geist_Critical_.png" width="60"> | <img src="https://deadlock.wiki/images/6/64/Viscous_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/1/11/Grey_Talon_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/7/72/Lash_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/e/e7/Paradox_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/e/e3/Pocket_Critical_.png" width="60"> |
+| 0W - 3L (0.0%) | 1W - 1L (50.0%) | 1W - 0L (100.0%) | 1W - 0L (100.0%) | 1W - 0L (100.0%) | 0W - 1L (0.0%) |
 
-| D.Va | Lucio | Freja | Symmetra |
-|:---:|:---:|:---:|:---:|
-| <img src="https://cdn3.emoji.gg/emojis/5341-dvapeace.png" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8866-luciocool.png" width="60"> | <img src="https://i.pinimg.com/736x/31/33/7a/31337adb5d3962e15a2c2ad9fe3856dc.jpg" width="60"> | <img src="https://cdn3.emoji.gg/emojis/8861-symmetragiggle.png" width="60"> |
-| 379W - 348L (52.1%) | 247W - 183L (57.4%) | 116W - 111L (51.1%) | 59W - 38L (60.8%) |
+| Rem |
+|:---:|
+| <img src="https://deadlock.wiki/images/2/2f/Rem_Gloat_%28Familiar%29.png" width="60"> |
+| 1W - 0L (100.0%) |
 <!-- STATS_END -->
 
 --- 
