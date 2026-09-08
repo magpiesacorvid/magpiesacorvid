@@ -157,7 +157,11 @@ HEROES_PER_ROW = 6
 
 
 def total_games(g):
-    return g["wins"] + g["losses"]
+    return g["played"]
+
+
+def losses(g):
+    return g["played"] - g["wins"]
 
 
 def win_rate(g):
@@ -177,13 +181,13 @@ def hero_table(heroes):
     results = []
 
     for hero in heroes:
-        hero_stats = data.get(hero, {"wins": 0, "losses": 0})
+        hero_stats = data.get(hero, {"played": 0, "wins": 0})
 
         headers.append(hero)
         images.append(f'<img src="{hero_image(hero, hero_stats)}" width="60">')
         results.append(
             f'{hero_stats["wins"]}W - '
-            f'{hero_stats["losses"]}L '
+            f'{losses(hero_stats)}L '
             f'({win_rate(hero_stats):.1f}%)'
         )
 
@@ -210,7 +214,7 @@ def game_section(name, stats):
     stats_html = (
         f'<p align="center">'
         f'Wins: {stats["wins"]}<br>'
-        f'Losses: {stats["losses"]}<br>'
+        f'Losses: {losses(stats)}<br>'
         f'Win Rate: {win_rate(stats):.1f}%'
         f'</p>'
     )
@@ -218,7 +222,7 @@ def game_section(name, stats):
     # Most-played heroes first; ties keep GAME_HEROES order (stable sort).
     heroes_sorted = sorted(
         GAME_HEROES[name],
-        key=lambda h: total_games(data.get(h, {"wins": 0, "losses": 0})),
+        key=lambda h: total_games(data.get(h, {"played": 0, "wins": 0})),
         reverse=True,
     )
 
