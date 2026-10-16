@@ -33,24 +33,24 @@ I'm the worst player EVER!! Evidence BELOW...</p>
 
 <h3 align="center"><img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"> Deadlock <img src="https://cdn.fastly.steamstatic.com/apps/deadlock/images/react/oldgods/rem_helper.png?2" height="22"></h3>
 
-<p align="center">Wins: 120<br>Losses: 122<br>Win Rate: 49.6%</p>
+<p align="center">Wins: 187<br>Losses: 195<br>Win Rate: 49.0%</p>
 
 <h4 align="center">Heroes</h4>
 
-| Celeste | Silver | Holliday | Paige | Mina | Vyper |
+| Celeste | Silver | Mina | Paige | Vyper | Holliday |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/8/8b/Silver_Critical_Health.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/9/9f/Paige_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> |
-| 34W - 27L (55.7%) | 11W - 16L (40.7%) | 7W - 17L (29.2%) | 9W - 9L (50.0%) | 10W - 7L (58.8%) | 12W - 4L (75.0%) |
+| <img src="https://deadlock.wiki/images/7/70/Celeste_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/8/8b/Silver_Critical_Health.png" width="60"> | <img src="https://deadlock.wiki/images/5/5e/Mina_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/0/02/Paige_Critical.png" width="60"> | <img src="https://iili.io/C0UOdB4.png" width="60"> | <img src="https://deadlock.wiki/images/7/7c/Holliday_Critical.png" width="60"> |
+| 43W - 34L (55.8%) | 17W - 27L (38.6%) | 21W - 21L (50.0%) | 19W - 20L (48.7%) | 20W - 7L (74.1%) | 7W - 20L (25.9%) |
 
-| Graves | Ivy | Venator | McGinnis | Vindicta | Mirage |
+| Ivy | Haze | Graves | McGinnis | Vindicta | Venator |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/f/ff/Graves_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/3/37/Ivy_Critical_.png" width="60"> | <img src="https://deadlock.wiki/images/5/55/Venator_Critical_Health.png" width="60"> | <img src="https://deadlock.wiki/images/7/7d/McGinnis_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/d/d0/Vindicta_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/a/a3/Mirage_Critical.png" width="60"> |
-| 9W - 3L (75.0%) | 4W - 5L (44.4%) | 3W - 4L (42.9%) | 2W - 4L (33.3%) | 3W - 3L (50.0%) | 1W - 4L (20.0%) |
+| <img src="https://deadlock.wiki/images/3/37/Ivy_Critical_.png" width="60"> | <img src="https://deadlock.wiki/images/c/c4/Haze_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/f/ff/Graves_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/7/7d/McGinnis_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/d/d0/Vindicta_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/5/55/Venator_Critical_Health.png" width="60"> |
+| 12W - 14L (46.2%) | 11W - 13L (45.8%) | 10W - 4L (71.4%) | 4W - 5L (44.4%) | 4W - 4L (50.0%) | 3W - 4L (42.9%) |
 
-| Wraith | Abrams | Dynamo | Haze | Infernus | Calico |
+| Mirage | Wraith | Abrams | Dynamo | Infernus | Calico |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| <img src="https://deadlock.wiki/images/6/6c/Wraith_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/c/c1/Abrams_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/9/9e/Dynamo_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/c/c4/Haze_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/9/91/Infernus_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/c/c7/Calico_Critical_.png" width="60"> |
-| 2W - 3L (40.0%) | 2W - 2L (50.0%) | 2W - 2L (50.0%) | 1W - 3L (25.0%) | 2W - 2L (50.0%) | 1W - 2L (33.3%) |
+| <img src="https://deadlock.wiki/images/a/a3/Mirage_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/6/6c/Wraith_Critical.png" width="60"> | <img src="https://deadlock.wiki/images/c/c1/Abrams_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/9/9e/Dynamo_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/9/91/Infernus_Gloat.png" width="60"> | <img src="https://deadlock.wiki/images/c/c7/Calico_Critical_.png" width="60"> |
+| 1W - 4L (20.0%) | 2W - 3L (40.0%) | 2W - 2L (50.0%) | 2W - 2L (50.0%) | 2W - 2L (50.0%) | 1W - 2L (33.3%) |
 
 | Lady Geist | Viscous | Grey Talon | Lash | Paradox | Pocket |
 |:---:|:---:|:---:|:---:|:---:|:---:|
